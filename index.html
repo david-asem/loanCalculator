@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loan Calculator</title>
+</head>
+<body class="blue darken-4 ">
+  <div class="container valign-wrapper ">
+    <div class="row">
+      <div class="col s12 m12 l12 offset-m12">
+        <div class="card valign-wrapper blue lighten-5 ">
+          <div class="card-content lighten-5">
+            <h1 class="heading  center-align" >Loan Calculator</h1>
+            <form id="loan-form">
+              <div class="input-field">
+                <span class="material-icons col s6 prefix" >attach_money</span>
+                <input type="number" id="amount"  placeholder="Loan Amount">
+       
+              </div>
+              <div class="input-field">
+                <span class="prefix col s6">%</span>
+                <input type="number" id="interest"  placeholder="Interest Rate Per Year">
+              
+              </div>
+              <div class="input-field">
+                <span class="prefix col s6"></span>
+                <input type="number" id="loan-term"  placeholder="Loan Term">
+              </div>
+              
+                <div class="section valign-wrapper">
+                  
+                  <button type="submit" class="btn blue col m8 " name="action" id="btn" >Calculate</button>
+                </div>
+                
+             
+            </form>
+            <!--LOADER HERE-->
+            <!--RESULTS-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+ <script type="text/javascript" src="js/materialize.min.js"></script> 
+</body>
+</html>
